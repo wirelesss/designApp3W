@@ -1,6 +1,6 @@
 //
-//  InterfaceController.swift
-//  OrdenPizzaWatch WatchKit Extension
+//  VistaSizePizza.swift
+//  OrdenPizzaWatch
 //
 //  Created by Rodrigo on 23/11/16.
 //  Copyright © 2016 Rodrigo Hernandez. All rights reserved.
@@ -10,12 +10,8 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class VistaSizePizza: WKInterfaceController {
 
-    @IBAction func bIniciarOrden() {
-        
-        
-    }
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

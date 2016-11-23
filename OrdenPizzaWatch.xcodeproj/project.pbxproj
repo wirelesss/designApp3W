@@ -19,6 +19,8 @@
 		F121B3A71DE5696C00D6B7EA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121B3A61DE5696C00D6B7EA /* InterfaceController.swift */; };
 		F121B3A91DE5696C00D6B7EA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121B3A81DE5696C00D6B7EA /* ExtensionDelegate.swift */; };
 		F121B3AB1DE5696C00D6B7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F121B3AA1DE5696C00D6B7EA /* Assets.xcassets */; };
+		F1A48A6A1DE57832008B7493 /* VistaSizePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A48A691DE57832008B7493 /* VistaSizePizza.swift */; };
+		F1A48A6C1DE57A38008B7493 /* InfoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A48A6B1DE57A38008B7493 /* InfoPizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		F121B3A81DE5696C00D6B7EA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		F121B3AA1DE5696C00D6B7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F121B3AC1DE5696C00D6B7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A48A691DE57832008B7493 /* VistaSizePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaSizePizza.swift; sourceTree = "<group>"; };
+		F1A48A6B1DE57A38008B7493 /* InfoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +151,11 @@
 			isa = PBXGroup;
 			children = (
 				F121B3A61DE5696C00D6B7EA /* InterfaceController.swift */,
+				F1A48A691DE57832008B7493 /* VistaSizePizza.swift */,
 				F121B3A81DE5696C00D6B7EA /* ExtensionDelegate.swift */,
 				F121B3AA1DE5696C00D6B7EA /* Assets.xcassets */,
 				F121B3AC1DE5696C00D6B7EA /* Info.plist */,
+				F1A48A6B1DE57A38008B7493 /* InfoPizza.swift */,
 			);
 			path = "OrdenPizzaWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A48A6C1DE57A38008B7493 /* InfoPizza.swift in Sources */,
 				F121B3A91DE5696C00D6B7EA /* ExtensionDelegate.swift in Sources */,
+				F1A48A6A1DE57832008B7493 /* VistaSizePizza.swift in Sources */,
 				F121B3A71DE5696C00D6B7EA /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +538,7 @@
 				F121B3B11DE5696C00D6B7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F121B3B31DE5696C00D6B7EA /* Build configuration list for PBXNativeTarget "OrdenPizzaWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +547,7 @@
 				F121B3B51DE5696C00D6B7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F121B3B71DE5696C00D6B7EA /* Build configuration list for PBXNativeTarget "OrdenPizzaWatch" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +556,7 @@
 				F121B3B91DE5696C00D6B7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
