@@ -19,6 +19,11 @@
 		F121B3A71DE5696C00D6B7EA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121B3A61DE5696C00D6B7EA /* InterfaceController.swift */; };
 		F121B3A91DE5696C00D6B7EA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121B3A81DE5696C00D6B7EA /* ExtensionDelegate.swift */; };
 		F121B3AB1DE5696C00D6B7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F121B3AA1DE5696C00D6B7EA /* Assets.xcassets */; };
+		F124ED891DEB0F5B00779C8C /* VistaMassPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124ED881DEB0F5B00779C8C /* VistaMassPizza.swift */; };
+		F124ED8B1DEB1EB200779C8C /* VistaCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124ED8A1DEB1EB200779C8C /* VistaCheesePizza.swift */; };
+		F124ED8D1DEB2F6400779C8C /* VistaIngredientePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124ED8C1DEB2F6400779C8C /* VistaIngredientePizza.swift */; };
+		F124ED8F1DEB4E9900779C8C /* IngredientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124ED8E1DEB4E9900779C8C /* IngredientRow.swift */; };
+		F124ED931DEB5F9900779C8C /* VistaConfirmacionEnvio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124ED921DEB5F9900779C8C /* VistaConfirmacionEnvio.swift */; };
 		F1A48A6A1DE57832008B7493 /* VistaSizePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A48A691DE57832008B7493 /* VistaSizePizza.swift */; };
 		F1A48A6C1DE57A38008B7493 /* InfoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A48A6B1DE57A38008B7493 /* InfoPizza.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +87,11 @@
 		F121B3A81DE5696C00D6B7EA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		F121B3AA1DE5696C00D6B7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F121B3AC1DE5696C00D6B7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F124ED881DEB0F5B00779C8C /* VistaMassPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMassPizza.swift; sourceTree = "<group>"; };
+		F124ED8A1DEB1EB200779C8C /* VistaCheesePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaCheesePizza.swift; sourceTree = "<group>"; };
+		F124ED8C1DEB2F6400779C8C /* VistaIngredientePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientePizza.swift; sourceTree = "<group>"; };
+		F124ED8E1DEB4E9900779C8C /* IngredientRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientRow.swift; sourceTree = "<group>"; };
+		F124ED921DEB5F9900779C8C /* VistaConfirmacionEnvio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaConfirmacionEnvio.swift; sourceTree = "<group>"; };
 		F1A48A691DE57832008B7493 /* VistaSizePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaSizePizza.swift; sourceTree = "<group>"; };
 		F1A48A6B1DE57A38008B7493 /* InfoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +166,11 @@
 				F121B3AA1DE5696C00D6B7EA /* Assets.xcassets */,
 				F121B3AC1DE5696C00D6B7EA /* Info.plist */,
 				F1A48A6B1DE57A38008B7493 /* InfoPizza.swift */,
+				F124ED881DEB0F5B00779C8C /* VistaMassPizza.swift */,
+				F124ED8A1DEB1EB200779C8C /* VistaCheesePizza.swift */,
+				F124ED8C1DEB2F6400779C8C /* VistaIngredientePizza.swift */,
+				F124ED8E1DEB4E9900779C8C /* IngredientRow.swift */,
+				F124ED921DEB5F9900779C8C /* VistaConfirmacionEnvio.swift */,
 			);
 			path = "OrdenPizzaWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -229,14 +244,17 @@
 					F121B37F1DE5696B00D6B7EA = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = H9BA59747H;
+						LastSwiftMigration = 0810;
 					};
 					F121B3911DE5696C00D6B7EA = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = H9BA59747H;
+						LastSwiftMigration = 0810;
 					};
 					F121B3A01DE5696C00D6B7EA = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = H9BA59747H;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -304,10 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F124ED8B1DEB1EB200779C8C /* VistaCheesePizza.swift in Sources */,
 				F1A48A6C1DE57A38008B7493 /* InfoPizza.swift in Sources */,
 				F121B3A91DE5696C00D6B7EA /* ExtensionDelegate.swift in Sources */,
+				F124ED931DEB5F9900779C8C /* VistaConfirmacionEnvio.swift in Sources */,
+				F124ED891DEB0F5B00779C8C /* VistaMassPizza.swift in Sources */,
 				F1A48A6A1DE57832008B7493 /* VistaSizePizza.swift in Sources */,
 				F121B3A71DE5696C00D6B7EA /* InterfaceController.swift in Sources */,
+				F124ED8D1DEB2F6400779C8C /* VistaIngredientePizza.swift in Sources */,
+				F124ED8F1DEB4E9900779C8C /* IngredientRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +469,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -460,6 +484,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -476,6 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -492,6 +518,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -505,6 +532,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.org.OrdenPizzaWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -516,6 +544,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.org.OrdenPizzaWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
