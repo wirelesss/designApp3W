@@ -28,6 +28,9 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        // Vista de Inicio, sin titulo boton Cancelar
+        self.setTitle("")
+        
         // obtener contexto - ini
         contexto = context as! InfoPizza!
         // obtener contexto - fin
